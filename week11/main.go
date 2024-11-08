@@ -64,7 +64,7 @@ func main() {
 
 	for i := n1; i <= n2; i++ {
 		if isPrime(i) {
-			fmt.Printf("%d", i)
+			fmt.Printf("%d ", i)
 		}
 	}
 }
